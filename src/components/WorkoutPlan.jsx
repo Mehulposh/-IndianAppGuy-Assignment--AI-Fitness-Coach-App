@@ -6,7 +6,7 @@ const WorkoutPlan = ({ plan, onExerciseClick, onPlayAudio, isSpeaking, currently
     {plan.daily_routine.map((day) => (
       <div
         key={day.day}
-        className="bg-gradient-to-br from-slate-50 to-slate-100 dark:from-slate-800/50 dark:to-slate-800/30 p-4 rounded-xl border border-slate-200 dark:border-slate-700 shadow-sm"
+        className="bg-linear-to-br from-slate-50 to-slate-100 dark:from-slate-800/50 dark:to-slate-800/30 p-4 rounded-xl border border-slate-200 dark:border-slate-700 shadow-sm"
       >
         <div className="flex items-center justify-between mb-3">
           <div className="flex items-center gap-2">
@@ -64,7 +64,7 @@ const WorkoutPlan = ({ plan, onExerciseClick, onPlayAudio, isSpeaking, currently
                   </span>
                 </div>
               </div>
-              <Wand2 className="w-4 h-4 text-indigo-400 flex-shrink-0 opacity-0 group-hover:opacity-100 transition-opacity" />
+              <Wand2 className="w-4 h-4 text-indigo-400 shrink-0 opacity-0 group-hover:opacity-100 transition-opacity" />
             </li>
           ))}
         </ul>
