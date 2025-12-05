@@ -24,7 +24,7 @@ import FormInput from "./components/InputForm";
 import FormSelect from "./components/SelectForm";
 import PlanDisplay from "./components/PlanDisplay";
 import ImageModal from "./components/ImageModal";
-import { JSON_SCHEMA, callGeminiApi, callGeminiTtsApi, callImagenApi } from "./utils/gemini";
+import { JSON_SCHEMA, callGeminiApi, callGeminiTtsApi, callImagenApi } from "./utils/geminiApi";
 
 export default function App() {
   const [darkMode, setDarkMode] = useStickyState(true, "ai-fitness-dark-mode");
